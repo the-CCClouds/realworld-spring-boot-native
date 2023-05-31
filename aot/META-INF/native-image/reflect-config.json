@@ -249,7 +249,6 @@
   "methods":[
     {"name":"getJsonFactory","parameterTypes":[] }, 
     {"name":"readValues","parameterTypes":["com.fasterxml.jackson.core.JsonParser","com.fasterxml.jackson.core.type.ResolvedType"] }, 
-    {"name":"readValues","parameterTypes":["com.fasterxml.jackson.core.JsonParser","com.fasterxml.jackson.core.type.TypeReference"] }, 
     {"name":"readValues","parameterTypes":["com.fasterxml.jackson.core.JsonParser","java.lang.Class"] }
   ]
 },
@@ -666,6 +665,27 @@
   "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
 },
 {
+  "name":"com.softwaremill.realworld.application.config.ObservationLogsConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.softwaremill.realworld.application.config.ObservationLogsConfiguration$$SpringCGLIB$$0",
+  "allDeclaredFields":true,
+  "fields":[{"name":"CGLIB$FACTORY_DATA"}],
+  "methods":[
+    {"name":"CGLIB$SET_STATIC_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }, 
+    {"name":"CGLIB$SET_THREAD_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }
+  ]
+},
+{
+  "name":"com.softwaremill.realworld.application.config.ObservationLogsConfiguration$$SpringCGLIB$$1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"com.softwaremill.realworld.application.config.ObservationLogsConfiguration$$SpringCGLIB$$2",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
   "name":"com.softwaremill.realworld.application.config.QueryFormattingConfiguration",
   "queryAllDeclaredMethods":true,
   "methods":[{"name":"setLogMessageFormat","parameterTypes":[] }]
@@ -720,6 +740,27 @@
     {"name":"CGLIB$SET_STATIC_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }, 
     {"name":"CGLIB$SET_THREAD_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }
   ]
+},
+{
+  "name":"com.softwaremill.realworld.application.user.config.UserServiceConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.softwaremill.realworld.application.user.config.UserServiceConfiguration$$SpringCGLIB$$0",
+  "allDeclaredFields":true,
+  "fields":[{"name":"CGLIB$FACTORY_DATA"}],
+  "methods":[
+    {"name":"CGLIB$SET_STATIC_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }, 
+    {"name":"CGLIB$SET_THREAD_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }
+  ]
+},
+{
+  "name":"com.softwaremill.realworld.application.user.config.UserServiceConfiguration$$SpringCGLIB$$1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"com.softwaremill.realworld.application.user.config.UserServiceConfiguration$$SpringCGLIB$$2",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
 },
 {
   "name":"com.softwaremill.realworld.application.user.controller.LoginUserRequest",
@@ -778,6 +819,15 @@
   "methods":[{"name":"user","parameterTypes":[] }]
 },
 {
+  "name":"com.softwaremill.realworld.application.user.service.ObservedUserService",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"login","parameterTypes":["com.softwaremill.realworld.application.user.controller.LoginUserRequest"] }, 
+    {"name":"signUp","parameterTypes":["com.softwaremill.realworld.application.user.controller.SignUpUserRequest"] }, 
+    {"name":"update","parameterTypes":["com.softwaremill.realworld.domain.user.User","com.softwaremill.realworld.application.user.controller.UpdateUserRequest"] }
+  ]
+},
+{
   "name":"com.softwaremill.realworld.application.user.service.ProfileService",
   "queryAllDeclaredMethods":true,
   "methods":[
@@ -796,22 +846,26 @@
   "methods":[{"name":"CGLIB$SET_THREAD_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }]
 },
 {
-  "name":"com.softwaremill.realworld.application.user.service.UserService",
+  "name":"com.softwaremill.realworld.application.user.service.UserApplicationService",
   "queryAllDeclaredMethods":true,
   "methods":[
-    {"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.user.UserRepository","org.springframework.security.crypto.password.PasswordEncoder","com.softwaremill.realworld.application.config.BearerTokenSupplier"] }, 
     {"name":"login","parameterTypes":["com.softwaremill.realworld.application.user.controller.LoginUserRequest"] }, 
     {"name":"signUp","parameterTypes":["com.softwaremill.realworld.application.user.controller.SignUpUserRequest"] }, 
     {"name":"update","parameterTypes":["com.softwaremill.realworld.domain.user.User","com.softwaremill.realworld.application.user.controller.UpdateUserRequest"] }
   ]
 },
 {
-  "name":"com.softwaremill.realworld.application.user.service.UserService$$SpringCGLIB$$0",
+  "name":"com.softwaremill.realworld.application.user.service.UserApplicationService$$SpringCGLIB$$0",
   "fields":[
     {"name":"CGLIB$CALLBACK_FILTER"}, 
     {"name":"CGLIB$FACTORY_DATA"}
   ],
   "methods":[{"name":"CGLIB$SET_THREAD_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }]
+},
+{
+  "name":"com.softwaremill.realworld.application.user.service.UserService",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
 },
 {
   "name":"com.softwaremill.realworld.domain.article.Article",
@@ -848,7 +902,7 @@
   ]
 },
 {
-  "name":"com.softwaremill.realworld.domain.article.ArticleFavorite_Accessor_baldj0",
+  "name":"com.softwaremill.realworld.domain.article.ArticleFavorite_Accessor_sp614i",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.article.ArticleFavorite"] }]
 },
@@ -881,7 +935,7 @@
   ]
 },
 {
-  "name":"com.softwaremill.realworld.domain.article.ArticleTag_Accessor_z8494h",
+  "name":"com.softwaremill.realworld.domain.article.ArticleTag_Accessor_i3auch",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.article.ArticleTag"] }]
 },
@@ -904,7 +958,7 @@
   ]
 },
 {
-  "name":"com.softwaremill.realworld.domain.article.Article_Accessor_nkpqd4",
+  "name":"com.softwaremill.realworld.domain.article.Article_Accessor_tux7of",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.article.Article"] }]
 },
@@ -939,7 +993,7 @@
   ]
 },
 {
-  "name":"com.softwaremill.realworld.domain.article.Comment_Accessor_5bors",
+  "name":"com.softwaremill.realworld.domain.article.Comment_Accessor_jjxhtf",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.article.Comment"] }]
 },
@@ -960,7 +1014,7 @@
   "queryAllPublicMethods":true
 },
 {
-  "name":"com.softwaremill.realworld.domain.article.Tag_Accessor_a1qbrh",
+  "name":"com.softwaremill.realworld.domain.article.Tag_Accessor_jjueqi",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.article.Tag"] }]
 },
@@ -993,7 +1047,7 @@
   "queryAllPublicMethods":true
 },
 {
-  "name":"com.softwaremill.realworld.domain.user.Follow_Accessor_j4yqjo",
+  "name":"com.softwaremill.realworld.domain.user.Follow_Accessor_14hdet",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.user.Follow"] }]
 },
@@ -1039,7 +1093,7 @@
   ]
 },
 {
-  "name":"com.softwaremill.realworld.domain.user.User_Accessor_3qn9xw",
+  "name":"com.softwaremill.realworld.domain.user.User_Accessor_k2x2v2",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.user.User"] }]
 },
@@ -1399,6 +1453,19 @@
   "name":"io.micrometer.observation.ObservationRegistry",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true
+},
+{
+  "name":"io.micrometer.observation.ObservationTextPublisher",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"onError","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onEvent","parameterTypes":["io.micrometer.observation.Observation$Event","io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onScopeClosed","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onScopeOpened","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onStart","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onStop","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"supportsContext","parameterTypes":["io.micrometer.observation.Observation$Context"] }
+  ]
 },
 {
   "name":"io.micrometer.observation.SimpleObservationRegistry",
@@ -1977,6 +2044,7 @@
   "name":"java.lang.reflect.ParameterizedType",
   "methods":[
     {"name":"getActualTypeArguments","parameterTypes":[] }, 
+    {"name":"getOwnerType","parameterTypes":[] }, 
     {"name":"getRawType","parameterTypes":[] }
   ]
 },
@@ -5620,7 +5688,7 @@
   "queryAllPublicMethods":true,
   "methods":[
     {"name":"getPersistentEntity","parameterTypes":["java.lang.Class"] }, 
-    {"name":"getPersistentEntity","parameterTypes":["org.springframework.data.util.TypeInformation"] }, 
+    {"name":"getPersistentEntity","parameterTypes":["org.springframework.data.mapping.PersistentProperty"] }, 
     {"name":"getRequiredPersistentEntity","parameterTypes":["java.lang.Class"] }, 
     {"name":"getRequiredPersistentEntity","parameterTypes":["org.springframework.data.mapping.PersistentProperty"] }, 
     {"name":"getRequiredPersistentEntity","parameterTypes":["org.springframework.data.util.TypeInformation"] }
