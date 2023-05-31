@@ -55,7 +55,14 @@ public class SecurityConfiguration {
                                         "/api/articles/{slug}",
                                         "/api/articles",
                                         "/api/profiles/{username}",
-                                        "/api/tags")
+                                        "/api/tags",
+                                        "/actuator",
+                                        "/actuator/health",
+                                        "/actuator/health/{path}",
+                                        "/actuator/info",
+                                        "/actuator/prometheus",
+                                        "/actuator/metrics",
+                                        "/actuator/metrics/{metricName}")
                                 .permitAll()
                                 .anyRequest()
                                 .authenticated())
