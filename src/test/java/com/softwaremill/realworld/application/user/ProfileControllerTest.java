@@ -3,7 +3,7 @@ package com.softwaremill.realworld.application.user;
 import com.softwaremill.realworld.IntegrationTest;
 import com.softwaremill.realworld.application.user.controller.LoginUserRequest;
 import com.softwaremill.realworld.application.user.controller.SignUpUserRequest;
-import com.softwaremill.realworld.application.user.service.UserService;
+import com.softwaremill.realworld.application.user.service.UserApplicationService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -23,7 +23,7 @@ class ProfileControllerTest {
     private MockMvc mockMvc;
 
     @Autowired
-    private UserService userService;
+    private UserApplicationService userService;
 
     @BeforeEach
     void setUp() throws Exception {

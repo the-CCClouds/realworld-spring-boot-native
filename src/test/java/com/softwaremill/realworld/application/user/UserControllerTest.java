@@ -5,7 +5,7 @@ import com.softwaremill.realworld.IntegrationTest;
 import com.softwaremill.realworld.application.user.controller.LoginUserRequest;
 import com.softwaremill.realworld.application.user.controller.SignUpUserRequest;
 import com.softwaremill.realworld.application.user.controller.UpdateUserRequest;
-import com.softwaremill.realworld.application.user.service.UserService;
+import com.softwaremill.realworld.application.user.service.UserApplicationService;
 import com.softwaremill.realworld.domain.user.UserVO;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -27,7 +27,7 @@ class UserControllerTest {
     private MockMvc mockMvc;
 
     @Autowired
-    private UserService userService;
+    private UserApplicationService userService;
 
     @Autowired
     private ObjectMapper objectMapper;

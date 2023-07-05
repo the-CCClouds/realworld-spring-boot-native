@@ -8,7 +8,7 @@ import com.softwaremill.realworld.application.article.controller.CreateCommentRe
 import com.softwaremill.realworld.application.article.controller.UpdateArticleRequest;
 import com.softwaremill.realworld.application.user.controller.LoginUserRequest;
 import com.softwaremill.realworld.application.user.controller.SignUpUserRequest;
-import com.softwaremill.realworld.application.user.service.UserService;
+import com.softwaremill.realworld.application.user.service.UserApplicationService;
 import com.softwaremill.realworld.domain.article.Article;
 import com.softwaremill.realworld.domain.article.ArticleRepository;
 import com.softwaremill.realworld.domain.article.Tag;
@@ -41,7 +41,7 @@ class ArticleControllerTest {
     private ObjectMapper objectMapper;
 
     @Autowired
-    private UserService userService;
+    private UserApplicationService userService;
 
     @Autowired
     private TagRepository tagRepository;

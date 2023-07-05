@@ -4,7 +4,7 @@ import com.softwaremill.realworld.IntegrationTest;
 import com.softwaremill.realworld.application.user.controller.LoginUserRequest;
 import com.softwaremill.realworld.application.user.controller.SignUpUserRequest;
 import com.softwaremill.realworld.application.user.controller.UpdateUserRequest;
-import com.softwaremill.realworld.application.user.service.UserService;
+import com.softwaremill.realworld.application.user.service.UserApplicationService;
 import com.softwaremill.realworld.domain.user.User;
 import com.softwaremill.realworld.domain.user.UserVO;
 import org.junit.jupiter.api.DisplayName;
@@ -15,9 +15,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @IntegrationTest
 @DisplayName("The User Services")
-class UserServiceTest {
+class UserApplicationServiceTest {
     @Autowired
-    private UserService sut;
+    private UserApplicationService sut;
 
     @Test
     @DisplayName("provides membership registration function.")

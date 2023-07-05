@@ -665,6 +665,27 @@
   "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
 },
 {
+  "name":"com.softwaremill.realworld.application.config.ObservationLogsConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.softwaremill.realworld.application.config.ObservationLogsConfiguration$$SpringCGLIB$$0",
+  "allDeclaredFields":true,
+  "fields":[{"name":"CGLIB$FACTORY_DATA"}],
+  "methods":[
+    {"name":"CGLIB$SET_STATIC_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }, 
+    {"name":"CGLIB$SET_THREAD_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }
+  ]
+},
+{
+  "name":"com.softwaremill.realworld.application.config.ObservationLogsConfiguration$$SpringCGLIB$$1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"com.softwaremill.realworld.application.config.ObservationLogsConfiguration$$SpringCGLIB$$2",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
   "name":"com.softwaremill.realworld.application.config.QueryFormattingConfiguration",
   "queryAllDeclaredMethods":true,
   "methods":[{"name":"setLogMessageFormat","parameterTypes":[] }]
@@ -719,6 +740,27 @@
     {"name":"CGLIB$SET_STATIC_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }, 
     {"name":"CGLIB$SET_THREAD_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }
   ]
+},
+{
+  "name":"com.softwaremill.realworld.application.user.config.UserServiceConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.softwaremill.realworld.application.user.config.UserServiceConfiguration$$SpringCGLIB$$0",
+  "allDeclaredFields":true,
+  "fields":[{"name":"CGLIB$FACTORY_DATA"}],
+  "methods":[
+    {"name":"CGLIB$SET_STATIC_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }, 
+    {"name":"CGLIB$SET_THREAD_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }
+  ]
+},
+{
+  "name":"com.softwaremill.realworld.application.user.config.UserServiceConfiguration$$SpringCGLIB$$1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"com.softwaremill.realworld.application.user.config.UserServiceConfiguration$$SpringCGLIB$$2",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
 },
 {
   "name":"com.softwaremill.realworld.application.user.controller.LoginUserRequest",
@@ -777,6 +819,15 @@
   "methods":[{"name":"user","parameterTypes":[] }]
 },
 {
+  "name":"com.softwaremill.realworld.application.user.service.ObservedUserService",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"login","parameterTypes":["com.softwaremill.realworld.application.user.controller.LoginUserRequest"] }, 
+    {"name":"signUp","parameterTypes":["com.softwaremill.realworld.application.user.controller.SignUpUserRequest"] }, 
+    {"name":"update","parameterTypes":["com.softwaremill.realworld.domain.user.User","com.softwaremill.realworld.application.user.controller.UpdateUserRequest"] }
+  ]
+},
+{
   "name":"com.softwaremill.realworld.application.user.service.ProfileService",
   "queryAllDeclaredMethods":true,
   "methods":[
@@ -795,22 +846,26 @@
   "methods":[{"name":"CGLIB$SET_THREAD_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }]
 },
 {
-  "name":"com.softwaremill.realworld.application.user.service.UserService",
+  "name":"com.softwaremill.realworld.application.user.service.UserApplicationService",
   "queryAllDeclaredMethods":true,
   "methods":[
-    {"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.user.UserRepository","org.springframework.security.crypto.password.PasswordEncoder","com.softwaremill.realworld.application.config.BearerTokenSupplier"] }, 
     {"name":"login","parameterTypes":["com.softwaremill.realworld.application.user.controller.LoginUserRequest"] }, 
     {"name":"signUp","parameterTypes":["com.softwaremill.realworld.application.user.controller.SignUpUserRequest"] }, 
     {"name":"update","parameterTypes":["com.softwaremill.realworld.domain.user.User","com.softwaremill.realworld.application.user.controller.UpdateUserRequest"] }
   ]
 },
 {
-  "name":"com.softwaremill.realworld.application.user.service.UserService$$SpringCGLIB$$0",
+  "name":"com.softwaremill.realworld.application.user.service.UserApplicationService$$SpringCGLIB$$0",
   "fields":[
     {"name":"CGLIB$CALLBACK_FILTER"}, 
     {"name":"CGLIB$FACTORY_DATA"}
   ],
   "methods":[{"name":"CGLIB$SET_THREAD_CALLBACKS","parameterTypes":["org.springframework.cglib.proxy.Callback[]"] }]
+},
+{
+  "name":"com.softwaremill.realworld.application.user.service.UserService",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
 },
 {
   "name":"com.softwaremill.realworld.domain.article.Article",
@@ -847,7 +902,7 @@
   ]
 },
 {
-  "name":"com.softwaremill.realworld.domain.article.ArticleFavorite_Accessor_dlq7ju",
+  "name":"com.softwaremill.realworld.domain.article.ArticleFavorite_Accessor_sp614i",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.article.ArticleFavorite"] }]
 },
@@ -880,7 +935,7 @@
   ]
 },
 {
-  "name":"com.softwaremill.realworld.domain.article.ArticleTag_Accessor_6y02lm",
+  "name":"com.softwaremill.realworld.domain.article.ArticleTag_Accessor_i3auch",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.article.ArticleTag"] }]
 },
@@ -903,7 +958,7 @@
   ]
 },
 {
-  "name":"com.softwaremill.realworld.domain.article.Article_Accessor_xq1ibp",
+  "name":"com.softwaremill.realworld.domain.article.Article_Accessor_tux7of",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.article.Article"] }]
 },
@@ -938,7 +993,7 @@
   ]
 },
 {
-  "name":"com.softwaremill.realworld.domain.article.Comment_Accessor_dkuj1v",
+  "name":"com.softwaremill.realworld.domain.article.Comment_Accessor_jjxhtf",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.article.Comment"] }]
 },
@@ -959,7 +1014,7 @@
   "queryAllPublicMethods":true
 },
 {
-  "name":"com.softwaremill.realworld.domain.article.Tag_Accessor_4ro0gx",
+  "name":"com.softwaremill.realworld.domain.article.Tag_Accessor_jjueqi",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.article.Tag"] }]
 },
@@ -992,7 +1047,7 @@
   "queryAllPublicMethods":true
 },
 {
-  "name":"com.softwaremill.realworld.domain.user.Follow_Accessor_3k158a",
+  "name":"com.softwaremill.realworld.domain.user.Follow_Accessor_14hdet",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.user.Follow"] }]
 },
@@ -1038,9 +1093,12 @@
   ]
 },
 {
-  "name":"com.softwaremill.realworld.domain.user.User_Accessor_atmzxj",
+  "name":"com.softwaremill.realworld.domain.user.User_Accessor_k2x2v2",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["com.softwaremill.realworld.domain.user.User"] }]
+},
+{
+  "name":"com.sun.management.GarbageCollectionNotificationInfo"
 },
 {
   "name":"com.sun.management.GarbageCollectorMXBean",
@@ -1048,11 +1106,23 @@
 },
 {
   "name":"com.sun.management.GcInfo",
-  "queryAllPublicMethods":true
+  "queryAllPublicMethods":true,
+  "fields":[
+    {"name":"builder"}, 
+    {"name":"extAttributes"}
+  ],
+  "methods":[{"name":"getMemoryUsageBeforeGc","parameterTypes":[] }]
 },
 {
   "name":"com.sun.management.HotSpotDiagnosticMXBean",
   "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.OperatingSystemMXBean",
+  "methods":[
+    {"name":"getCpuLoad","parameterTypes":[] }, 
+    {"name":"getProcessCpuLoad","parameterTypes":[] }
+  ]
 },
 {
   "name":"com.sun.management.ThreadMXBean",
@@ -1060,7 +1130,11 @@
 },
 {
   "name":"com.sun.management.UnixOperatingSystemMXBean",
-  "queryAllPublicMethods":true
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"getMaxFileDescriptorCount","parameterTypes":[] }, 
+    {"name":"getOpenFileDescriptorCount","parameterTypes":[] }
+  ]
 },
 {
   "name":"com.sun.management.VMOption",
@@ -1199,6 +1273,225 @@
 {
   "name":"com.zaxxer.hikari.pool.HikariProxyConnection",
   "methods":[{"name":"getSchema","parameterTypes":[] }]
+},
+{
+  "name":"io.micrometer.common.lang.NonNullApi",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.micrometer.common.lang.NonNullFields",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.micrometer.common.lang.Nullable",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.micrometer.core.instrument.Clock",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.micrometer.core.instrument.Clock$1",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"monotonicTime","parameterTypes":[] }, 
+    {"name":"wallTime","parameterTypes":[] }
+  ]
+},
+{
+  "name":"io.micrometer.core.instrument.MeterRegistry",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"clear","parameterTypes":[] }, 
+    {"name":"close","parameterTypes":[] }, 
+    {"name":"config","parameterTypes":[] }, 
+    {"name":"counter","parameterTypes":["java.lang.String","java.lang.Iterable"] }, 
+    {"name":"counter","parameterTypes":["java.lang.String","java.lang.String[]"] }, 
+    {"name":"find","parameterTypes":["java.lang.String"] }, 
+    {"name":"forEachMeter","parameterTypes":["java.util.function.Consumer"] }, 
+    {"name":"gauge","parameterTypes":["java.lang.String","java.lang.Iterable","java.lang.Number"] }, 
+    {"name":"gauge","parameterTypes":["java.lang.String","java.lang.Iterable","java.lang.Object","java.util.function.ToDoubleFunction"] }, 
+    {"name":"gauge","parameterTypes":["java.lang.String","java.lang.Number"] }, 
+    {"name":"gauge","parameterTypes":["java.lang.String","java.lang.Object","java.util.function.ToDoubleFunction"] }, 
+    {"name":"gaugeCollectionSize","parameterTypes":["java.lang.String","java.lang.Iterable","java.util.Collection"] }, 
+    {"name":"gaugeMapSize","parameterTypes":["java.lang.String","java.lang.Iterable","java.util.Map"] }, 
+    {"name":"get","parameterTypes":["java.lang.String"] }, 
+    {"name":"getMeters","parameterTypes":[] }, 
+    {"name":"isClosed","parameterTypes":[] }, 
+    {"name":"more","parameterTypes":[] }, 
+    {"name":"remove","parameterTypes":["io.micrometer.core.instrument.Meter$Id"] }, 
+    {"name":"remove","parameterTypes":["io.micrometer.core.instrument.Meter"] }, 
+    {"name":"removeByPreFilterId","parameterTypes":["io.micrometer.core.instrument.Meter$Id"] }, 
+    {"name":"summary","parameterTypes":["java.lang.String","java.lang.Iterable"] }, 
+    {"name":"summary","parameterTypes":["java.lang.String","java.lang.String[]"] }, 
+    {"name":"timer","parameterTypes":["java.lang.String","java.lang.Iterable"] }, 
+    {"name":"timer","parameterTypes":["java.lang.String","java.lang.String[]"] }
+  ]
+},
+{
+  "name":"io.micrometer.core.instrument.Statistic",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.micrometer.core.instrument.binder.MeterBinder",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.micrometer.core.instrument.binder.jvm.ClassLoaderMetrics",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }]
+},
+{
+  "name":"io.micrometer.core.instrument.binder.jvm.JvmCompilationMetrics",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }]
+},
+{
+  "name":"io.micrometer.core.instrument.binder.jvm.JvmGcMetrics",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }, 
+    {"name":"close","parameterTypes":[] }
+  ]
+},
+{
+  "name":"io.micrometer.core.instrument.binder.jvm.JvmHeapPressureMetrics",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }, 
+    {"name":"close","parameterTypes":[] }
+  ]
+},
+{
+  "name":"io.micrometer.core.instrument.binder.jvm.JvmInfoMetrics",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }]
+},
+{
+  "name":"io.micrometer.core.instrument.binder.jvm.JvmMemoryMetrics",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }]
+},
+{
+  "name":"io.micrometer.core.instrument.binder.jvm.JvmThreadMetrics",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }]
+},
+{
+  "name":"io.micrometer.core.instrument.binder.logging.LogbackMetrics",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }, 
+    {"name":"close","parameterTypes":[] }
+  ]
+},
+{
+  "name":"io.micrometer.core.instrument.binder.system.FileDescriptorMetrics",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }]
+},
+{
+  "name":"io.micrometer.core.instrument.binder.system.ProcessorMetrics",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }]
+},
+{
+  "name":"io.micrometer.core.instrument.binder.system.UptimeMetrics",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }]
+},
+{
+  "name":"io.micrometer.core.instrument.config.MeterFilter",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"map","parameterTypes":["io.micrometer.core.instrument.Meter$Id"] }]
+},
+{
+  "name":"io.micrometer.core.instrument.config.MeterFilter$9",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"accept","parameterTypes":["io.micrometer.core.instrument.Meter$Id"] }, 
+    {"name":"configure","parameterTypes":["io.micrometer.core.instrument.Meter$Id","io.micrometer.core.instrument.distribution.DistributionStatisticConfig"] }
+  ]
+},
+{
+  "name":"io.micrometer.core.instrument.config.MeterRegistryConfig",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"requireValid","parameterTypes":[] }]
+},
+{
+  "name":"io.micrometer.core.instrument.observation.DefaultMeterObservationHandler",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"onEvent","parameterTypes":["io.micrometer.observation.Observation$Event","io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onStart","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onStop","parameterTypes":["io.micrometer.observation.Observation$Context"] }
+  ]
+},
+{
+  "name":"io.micrometer.core.instrument.observation.MeterObservationHandler",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"supportsContext","parameterTypes":["io.micrometer.observation.Observation$Context"] }]
+},
+{
+  "name":"io.micrometer.observation.ObservationHandler",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"onError","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onScopeClosed","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onScopeOpened","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onScopeReset","parameterTypes":["io.micrometer.observation.Observation$Context"] }
+  ]
+},
+{
+  "name":"io.micrometer.observation.ObservationRegistry",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.micrometer.observation.ObservationTextPublisher",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"onError","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onEvent","parameterTypes":["io.micrometer.observation.Observation$Event","io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onScopeClosed","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onScopeOpened","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onStart","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"onStop","parameterTypes":["io.micrometer.observation.Observation$Context"] }, 
+    {"name":"supportsContext","parameterTypes":["io.micrometer.observation.Observation$Context"] }
+  ]
+},
+{
+  "name":"io.micrometer.observation.SimpleObservationRegistry",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"getCurrentObservation","parameterTypes":[] }, 
+    {"name":"getCurrentObservationScope","parameterTypes":[] }, 
+    {"name":"isNoop","parameterTypes":[] }, 
+    {"name":"observationConfig","parameterTypes":[] }, 
+    {"name":"setCurrentObservationScope","parameterTypes":["io.micrometer.observation.Observation$Scope"] }
+  ]
+},
+{
+  "name":"io.micrometer.prometheus.PrometheusConfig",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"validate","parameterTypes":[] }]
+},
+{
+  "name":"io.micrometer.prometheus.PrometheusMeterRegistry",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.prometheus.client.CollectorRegistry",
+  "queryAllDeclaredMethods":true
 },
 {
   "name":"jakarta.annotation.PostConstruct",
@@ -1522,11 +1815,22 @@
   ]
 },
 {
+  "name":"java.lang.Cloneable",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.Comparable",
+  "queryAllDeclaredMethods":true
+},
+{
   "name":"java.lang.Deprecated",
   "queryAllPublicMethods":true
 },
 {
   "name":"java.lang.Double",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
   "fields":[{"name":"TYPE"}]
 },
 {
@@ -1558,6 +1862,11 @@
     {"name":"isExported","parameterTypes":["java.lang.String"] }, 
     {"name":"isNamed","parameterTypes":[] }
   ]
+},
+{
+  "name":"java.lang.Number",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
 },
 {
   "name":"java.lang.Object",
@@ -1629,7 +1938,12 @@
 },
 {
   "name":"java.lang.constant.Constable",
+  "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.constant.ConstantDesc",
+  "queryAllDeclaredMethods":true
 },
 {
   "name":"java.lang.invoke.MethodHandles",
@@ -1673,7 +1987,8 @@
 },
 {
   "name":"java.lang.management.MemoryUsage",
-  "queryAllPublicMethods":true
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"from","parameterTypes":["javax.management.openmbean.CompositeData"] }]
 },
 {
   "name":"java.lang.management.MonitorInfo",
@@ -1814,6 +2129,13 @@
   "name":"java.security.interfaces.RSAPublicKey"
 },
 {
+  "name":"java.sql.Connection",
+  "methods":[
+    {"name":"getMetaData","parameterTypes":[] }, 
+    {"name":"isValid","parameterTypes":["int"] }
+  ]
+},
+{
   "name":"java.sql.Date"
 },
 {
@@ -1839,6 +2161,11 @@
   "queryAllDeclaredMethods":true
 },
 {
+  "name":"java.util.AbstractMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
   "name":"java.util.ArrayList"
 },
 {
@@ -1854,10 +2181,21 @@
 },
 {
   "name":"java.util.HashMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
   "name":"java.util.HashSet"
+},
+{
+  "name":"java.util.LinkedHashMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.util.Map",
+  "queryAllDeclaredMethods":true
 },
 {
   "name":"java.util.PropertyPermission",
@@ -2779,7 +3117,11 @@
 {
   "name":"org.springframework.beans.factory.config.BeanPostProcessor",
   "queryAllDeclaredMethods":true,
-  "queryAllPublicMethods":true
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"postProcessAfterInitialization","parameterTypes":["java.lang.Object","java.lang.String"] }, 
+    {"name":"postProcessBeforeInitialization","parameterTypes":["java.lang.Object","java.lang.String"] }
+  ]
 },
 {
   "name":"org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor",
@@ -2826,6 +3168,833 @@
 },
 {
   "name":"org.springframework.boot.SpringBootConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.availability.AvailabilityHealthContributorAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.EndpointAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.condition.ConditionalOnAvailableEndpoint",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.expose.IncludeExcludeEndpointFilter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"match","parameterTypes":["org.springframework.boot.actuate.endpoint.ExposableEndpoint"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.jackson.JacksonEndpointAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.web.CorsEndpointProperties",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.web.MappingWebEndpointPathMapper",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getRootPath","parameterTypes":["org.springframework.boot.actuate.endpoint.EndpointId"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.springframework.context.ApplicationContext","org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration$WebEndpointServletConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getExposure","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties$Exposure",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getInclude","parameterTypes":[] }, 
+    {"name":"setInclude","parameterTypes":["java.util.Set"] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.web.servlet.WebMvcEndpointManagementContextConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.endpoint.web.servlet.WebMvcEndpointManagementContextConfiguration$EndpointObjectMapperWebMvcConfigurer",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"configureMessageConverters","parameterTypes":["java.util.List"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.health.AutoConfiguredHealthContributorRegistry",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"registerContributor","parameterTypes":["java.lang.String","java.lang.Object"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.health.AutoConfiguredHealthEndpointGroups",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"get","parameterTypes":["java.lang.String"] }, 
+    {"name":"getNames","parameterTypes":[] }, 
+    {"name":"getPrimary","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.health.ConditionalOnEnabledHealthIndicator",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.health.HealthContributorAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.health.HealthEndpointAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration$HealthEndpointGroupsBeanPostProcessor",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"postProcessAfterInitialization","parameterTypes":["java.lang.Object","java.lang.String"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.health.HealthEndpointProperties",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getShowDetails","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.health.HealthEndpointWebExtensionConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.health.HealthEndpointWebExtensionConfiguration$MvcAdditionalHealthEndpointPathsConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.health.HealthProperties",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"getRoles","parameterTypes":[] }, 
+    {"name":"getShowComponents","parameterTypes":[] }, 
+    {"name":"getStatus","parameterTypes":[] }, 
+    {"name":"setRoles","parameterTypes":["java.util.Set"] }, 
+    {"name":"setShowComponents","parameterTypes":["org.springframework.boot.actuate.endpoint.Show"] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.info.ConditionalOnEnabledInfoContributor",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.info.InfoContributorAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.info.InfoContributorProperties",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthContributorAutoConfiguration",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":["org.springframework.beans.factory.ObjectProvider"] }, 
+    {"name":"afterPropertiesSet","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorProperties",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.CompositeMeterRegistryAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.JvmMetricsAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.LogbackMetricsAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.MeterRegistryPostProcessor",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"afterSingletonsInstantiated","parameterTypes":[] }, 
+    {"name":"postProcessAfterInitialization","parameterTypes":["java.lang.Object","java.lang.String"] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.MetricsEndpointAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.PropertiesMeterFilter",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"accept","parameterTypes":["io.micrometer.core.instrument.Meter$Id"] }, 
+    {"name":"configure","parameterTypes":["io.micrometer.core.instrument.Meter$Id","io.micrometer.core.instrument.distribution.DistributionStatisticConfig"] }, 
+    {"name":"map","parameterTypes":["io.micrometer.core.instrument.Meter$Id"] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.SystemMetricsAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.data.MetricsRepositoryMethodInvocationListenerBeanPostProcessor",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"postProcessBeforeInitialization","parameterTypes":["java.lang.Object","java.lang.String"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.export.ConditionalOnEnabledMetricsExport",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration$PrometheusScrapeEndpointConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusPropertiesConfigAdapter",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"descriptions","parameterTypes":[] }, 
+    {"name":"get","parameterTypes":["java.lang.String"] }, 
+    {"name":"histogramFlavor","parameterTypes":[] }, 
+    {"name":"prefix","parameterTypes":[] }, 
+    {"name":"step","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.export.properties.PropertiesConfigAdapter",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.integration.IntegrationMetricsAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.jdbc.DataSourcePoolMetricsAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.jdbc.DataSourcePoolMetricsAutoConfiguration$DataSourcePoolMetadataMetricsConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.jdbc.DataSourcePoolMetricsAutoConfiguration$DataSourcePoolMetadataMetricsConfiguration$DataSourcePoolMetadataMeterBinder",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.jdbc.DataSourcePoolMetricsAutoConfiguration$HikariDataSourceMetricsConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.jdbc.DataSourcePoolMetricsAutoConfiguration$HikariDataSourceMetricsConfiguration$HikariDataSourceMeterBinder",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.startup.StartupTimeMetricsListenerAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.task.TaskExecutorMetricsAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.metrics.web.tomcat.TomcatMetricsAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.observation.ObservationAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.observation.ObservationAutoConfiguration$MeterObservationHandlerConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.observation.ObservationAutoConfiguration$MeterObservationHandlerConfiguration$OnlyMetricsMeterObservationHandlerConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.observation.ObservationAutoConfiguration$OnlyMetricsConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.observation.ObservationHandlerGrouping",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.observation.ObservationProperties",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.observation.ObservationRegistryPostProcessor",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"postProcessAfterInitialization","parameterTypes":["java.lang.Object","java.lang.String"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.observation.web.client.HttpClientObservationsAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.observation.web.client.HttpClientObservationsAutoConfiguration$MeterFilterConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.observation.web.client.RestTemplateObservationConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.observation.web.servlet.WebMvcObservationAutoConfiguration",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.springframework.boot.actuate.autoconfigure.observation.ObservationProperties","org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.observation.web.servlet.WebMvcObservationAutoConfiguration$MeterFilterConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.security.servlet.SecurityRequestMatchersManagementContextConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.security.servlet.SecurityRequestMatchersManagementContextConfiguration$MvcRequestMatcherConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.system.DiskSpaceHealthContributorAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.system.DiskSpaceHealthIndicatorProperties",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.web.ManagementContextConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.web.ManagementContextFactory",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.web.server.ConditionalOnManagementPort",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.web.server.EnableManagementContext",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":["org.springframework.core.env.Environment"] }, 
+    {"name":"afterSingletonsInstantiated","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration$EnableSameManagementContextConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.web.server.ManagementServerProperties",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.web.servlet.ManagementServletContext",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.autoconfigure.web.servlet.ServletManagementContextAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.EndpointFilter",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.EndpointsSupplier",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.OperationResponseBody",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.OperationResponseBodyMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.annotation.Endpoint",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.annotation.EndpointConverter",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"createOperationKey","parameterTypes":["org.springframework.boot.actuate.endpoint.Operation"] }, 
+    {"name":"getEndpoints","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.annotation.EndpointExtension",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.annotation.FilteredEndpoint",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.annotation.ReadOperation",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.invoke.OperationInvokerAdvisor",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.invoke.ParameterValueMapper",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.invoke.convert.ConversionServiceParameterValueMapper",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"mapParameterValue","parameterTypes":["org.springframework.boot.actuate.endpoint.invoke.OperationParameter","java.lang.Object"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.invoker.cache.CachingOperationInvokerAdvisor",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"apply","parameterTypes":["org.springframework.boot.actuate.endpoint.EndpointId","org.springframework.boot.actuate.endpoint.OperationType","org.springframework.boot.actuate.endpoint.invoke.OperationParameters","org.springframework.boot.actuate.endpoint.invoke.OperationInvoker"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.jackson.EndpointObjectMapper",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.EndpointMediaTypes",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.Link",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getHref","parameterTypes":[] }, 
+    {"name":"isTemplated","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.PathMappedEndpoints",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"iterator","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.PathMapper",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"onStartup","parameterTypes":["jakarta.servlet.ServletContext"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.WebEndpointsSupplier",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.annotation.ControllerEndpointDiscoverer",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.annotation.ControllerEndpointsSupplier",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.annotation.EndpointWebExtension",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.annotation.ServletEndpointDiscoverer",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.annotation.ServletEndpointsSupplier",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.annotation.WebEndpoint",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.annotation.WebEndpointDiscoverer",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.annotation.WebEndpointFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"afterPropertiesSet","parameterTypes":[] }, 
+    {"name":"getEndpoints","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$LinksHandler",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"handle","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.util.Map"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.servlet.AdditionalHealthEndpointPathsWebMvcHandlerMapping",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.servlet.ControllerEndpointHandlerMapping",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping$WebMvcLinksHandler",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"links","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.health.AbstractHealthIndicator",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"health","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.health.CompositeHealth",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"getComponents","parameterTypes":[] }, 
+    {"name":"getDetails","parameterTypes":[] }, 
+    {"name":"getStatus","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.health.ContributorRegistry",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.health.DefaultContributorRegistry",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"registerContributor","parameterTypes":["java.lang.String","java.lang.Object"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.health.DefaultHealthContributorRegistry",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"getContributor","parameterTypes":["java.lang.String"] }, 
+    {"name":"iterator","parameterTypes":[] }, 
+    {"name":"registerContributor","parameterTypes":["java.lang.String","java.lang.Object"] }, 
+    {"name":"unregisterContributor","parameterTypes":["java.lang.String"] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.health.HealthComponent",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.health.HealthContributor",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.health.HealthContributorRegistry",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.health.HealthEndpoint",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.health.HealthEndpointGroups",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"get","parameterTypes":["org.springframework.boot.actuate.health.AdditionalHealthEndpointPath"] }, 
+    {"name":"getAllWithAdditionalPath","parameterTypes":["org.springframework.boot.actuate.endpoint.web.WebServerNamespace"] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.health.HealthEndpointSupport",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getHealth","parameterTypes":["java.lang.Object","boolean"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.health.HealthEndpointWebExtension",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"health","parameterTypes":["org.springframework.boot.actuate.endpoint.ApiVersion","org.springframework.boot.actuate.endpoint.web.WebServerNamespace","org.springframework.boot.actuate.endpoint.SecurityContext"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.health.HealthIndicator",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getHealth","parameterTypes":["boolean"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.health.HttpCodeStatusMapper",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.health.NamedContributors",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"stream","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.health.PingHealthIndicator",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.health.SimpleHttpCodeStatusMapper",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getStatusCode","parameterTypes":["org.springframework.boot.actuate.health.Status"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.health.SimpleStatusAggregator",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getAggregateStatus","parameterTypes":["java.util.Set"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.health.Status",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getCode","parameterTypes":[] }, 
+    {"name":"getDescription","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.health.StatusAggregator",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getAggregateStatus","parameterTypes":["org.springframework.boot.actuate.health.Status[]"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.health.SystemHealth",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getGroups","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.MetricsEndpoint",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"listNames","parameterTypes":[] }, 
+    {"name":"metric","parameterTypes":["java.lang.String","java.util.List"] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.MetricsEndpoint$AvailableTag",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getTag","parameterTypes":[] }, 
+    {"name":"getValues","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.MetricsEndpoint$MetricDescriptor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getAvailableTags","parameterTypes":[] }, 
+    {"name":"getBaseUnit","parameterTypes":[] }, 
+    {"name":"getDescription","parameterTypes":[] }, 
+    {"name":"getMeasurements","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.MetricsEndpoint$MetricNamesDescriptor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getNames","parameterTypes":[] }]
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.MetricsEndpoint$Sample",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getStatistic","parameterTypes":[] }, 
+    {"name":"getValue","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.data.DefaultRepositoryTagsProvider",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"repositoryTags","parameterTypes":["org.springframework.data.repository.core.support.RepositoryMethodInvocationListener$RepositoryMethodInvocation"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.data.MetricsRepositoryMethodInvocationListener",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"afterInvocation","parameterTypes":["org.springframework.data.repository.core.support.RepositoryMethodInvocationListener$RepositoryMethodInvocation"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.data.RepositoryTagsProvider",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.export.prometheus.PrometheusScrapeEndpoint",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"scrape","parameterTypes":["org.springframework.boot.actuate.metrics.export.prometheus.TextOutputFormat","java.util.Set"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.startup.StartupTimeMetricsListener",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"onApplicationEvent","parameterTypes":["org.springframework.context.ApplicationEvent"] }, 
+    {"name":"supportsEventType","parameterTypes":["java.lang.Class"] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.system.DiskSpaceMetricsBinder",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"bindTo","parameterTypes":["io.micrometer.core.instrument.MeterRegistry"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.web.client.ObservationRestTemplateCustomizer",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"customize","parameterTypes":["org.springframework.web.client.RestTemplate"] }]
+},
+{
+  "name":"org.springframework.boot.actuate.metrics.web.tomcat.TomcatMetricsBinder",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"destroy","parameterTypes":[] }, 
+    {"name":"onApplicationEvent","parameterTypes":["org.springframework.context.ApplicationEvent"] }
+  ]
+},
+{
+  "name":"org.springframework.boot.actuate.system.DiskSpaceHealthIndicator",
   "queryAllDeclaredMethods":true
 },
 {
@@ -2898,6 +4067,10 @@
 },
 {
   "name":"org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.autoconfigure.condition.ConditionalOnMissingClass",
   "queryAllDeclaredMethods":true
 },
 {
@@ -3210,6 +4383,16 @@
 {
   "name":"org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.Oauth2ResourceServerConfiguration$OpaqueTokenConfiguration",
   "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.autoconfigure.security.servlet.AntPathRequestMatcherProvider",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getRequestMatcher","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.springframework.boot.autoconfigure.security.servlet.RequestMatcherProvider",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
 },
 {
   "name":"org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration",
@@ -3809,6 +4992,11 @@
   "queryAllPublicMethods":true
 },
 {
+  "name":"org.springframework.boot.web.client.RestTemplateCustomizer",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
+},
+{
   "name":"org.springframework.boot.web.context.ServerPortInfoApplicationContextInitializer",
   "queryAllPublicConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":[] }]
@@ -3934,6 +5122,11 @@
     {"name":"setInitParameters","parameterTypes":["java.util.Map"] }, 
     {"name":"setName","parameterTypes":["java.lang.String"] }
   ]
+},
+{
+  "name":"org.springframework.boot.web.servlet.FilterRegistrationBean",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getFilter","parameterTypes":[] }]
 },
 {
   "name":"org.springframework.boot.web.servlet.RegistrationBean",
@@ -4164,6 +5357,16 @@
 {
   "name":"org.springframework.context.annotation.Scope",
   "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.springframework.context.event.SmartApplicationListener",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"getListenerId","parameterTypes":[] }, 
+    {"name":"getOrder","parameterTypes":[] }, 
+    {"name":"supportsSourceType","parameterTypes":["java.lang.Class"] }
+  ]
 },
 {
   "name":"org.springframework.context.support.ApplicationObjectSupport",
@@ -4618,6 +5821,11 @@
     {"name":"getObjectType","parameterTypes":[] }, 
     {"name":"setBeanFactory","parameterTypes":["org.springframework.beans.factory.BeanFactory"] }
   ]
+},
+{
+  "name":"org.springframework.data.repository.core.support.RepositoryMethodInvocationListener",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true
 },
 {
   "name":"org.springframework.data.repository.core.support.TransactionalRepositoryFactoryBeanSupport",
@@ -6129,6 +7337,10 @@
   "methods":[{"name":"setThreadContextInheritable","parameterTypes":["boolean"] }]
 },
 {
+  "name":"org.springframework.web.filter.ServerHttpObservationFilter",
+  "queryAllDeclaredMethods":true
+},
+{
   "name":"org.springframework.web.method.annotation.ExceptionHandlerMethodResolver",
   "methods":[{"name":"noMatchingExceptionHandler","parameterTypes":[] }]
 },
@@ -6385,6 +7597,7 @@
     {"name":"registerMapping","parameterTypes":["java.lang.Object","java.lang.Object","java.lang.reflect.Method"] }, 
     {"name":"setDetectHandlerMethodsInAncestorContexts","parameterTypes":["boolean"] }, 
     {"name":"setHandlerMethodMappingNamingStrategy","parameterTypes":["org.springframework.web.servlet.handler.HandlerMethodMappingNamingStrategy"] }, 
+    {"name":"setPatternParser","parameterTypes":["org.springframework.web.util.pattern.PathPatternParser"] }, 
     {"name":"unregisterMapping","parameterTypes":["java.lang.Object"] }
   ]
 },
@@ -6500,10 +7713,25 @@
   "queryAllDeclaredMethods":true,
   "methods":[
     {"name":"afterPropertiesSet","parameterTypes":[] }, 
+    {"name":"getBuilderConfiguration","parameterTypes":[] }, 
+    {"name":"getContentNegotiationManager","parameterTypes":[] }, 
+    {"name":"getFileExtensions","parameterTypes":[] }, 
+    {"name":"getPathPrefixes","parameterTypes":[] }, 
+    {"name":"initCorsConfiguration","parameterTypes":["java.lang.Object","java.lang.reflect.Method","java.lang.Object"] }, 
     {"name":"match","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, 
+    {"name":"registerHandlerMethod","parameterTypes":["java.lang.Object","java.lang.reflect.Method","java.lang.Object"] }, 
     {"name":"registerMapping","parameterTypes":["java.lang.Object","java.lang.Object","java.lang.reflect.Method"] }, 
+    {"name":"registerMapping","parameterTypes":["org.springframework.web.servlet.mvc.method.RequestMappingInfo","java.lang.Object","java.lang.reflect.Method"] }, 
+    {"name":"setContentNegotiationManager","parameterTypes":["org.springframework.web.accept.ContentNegotiationManager"] }, 
     {"name":"setEmbeddedValueResolver","parameterTypes":["org.springframework.util.StringValueResolver"] }, 
-    {"name":"setPatternParser","parameterTypes":["org.springframework.web.util.pattern.PathPatternParser"] }
+    {"name":"setPathPrefixes","parameterTypes":["java.util.Map"] }, 
+    {"name":"setPatternParser","parameterTypes":["org.springframework.web.util.pattern.PathPatternParser"] }, 
+    {"name":"setUseRegisteredSuffixPatternMatch","parameterTypes":["boolean"] }, 
+    {"name":"setUseSuffixPatternMatch","parameterTypes":["boolean"] }, 
+    {"name":"setUseTrailingSlashMatch","parameterTypes":["boolean"] }, 
+    {"name":"useRegisteredSuffixPatternMatch","parameterTypes":[] }, 
+    {"name":"useSuffixPatternMatch","parameterTypes":[] }, 
+    {"name":"useTrailingSlashMatch","parameterTypes":[] }
   ]
 },
 {

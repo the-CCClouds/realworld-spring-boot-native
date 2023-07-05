@@ -96,6 +96,12 @@
     }, 
     {
       "pattern":"\\Qorg/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/springframework/boot/web/server/mime-mappings.properties\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/springframework/http/mime.types\\E"
     }
   ]},
   "bundles":[
