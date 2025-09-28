@@ -1,5 +1,6 @@
 # ![RealWorld Example App](logo.png)
 
+> 本项目基于 [realworld-spring-boot-native](https://github.com/softwaremill/realworld-spring-boot-native) 搬运，遵循其开源协议（MIT License）。
 > ### **Java 17 + Spring Boot 3 + Native image** codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld) spec and API.
 
 ### [Demo](https://demo.realworld.io/)&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/gothinkster/realworld)
